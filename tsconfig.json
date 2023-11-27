@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "lib": [ "es2015.promise", "es5"],
+        "outDir": "build",
+        "typeRoots": [
+            "../node_modules/@types"
+        ],
+    },
+    "include": [
+        "server/**/*ts",
+        "server/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "files": ["placeholder.ts"],
+    "compileOnSave": true,
+    "buildOnSave" :true
+}
